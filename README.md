@@ -5,39 +5,45 @@ Description
 
 This project is for self-improvement and practice in order to provide myself with confidence within this industry.
 
-This back end for an e-commerce site was created by modifying starter code given to us.
+This is a single page progressive web application that runs a text editor in the browswer - online & offline.
 
-Express.js API and Sequelize was used to interact with a MySQL database.
+This application uses Webpack, Node.js, Express.js, and JavaScript.
+
 
 Installation
 
 To install the project:
 
+In the Terminal -
+
 npm i
 
-mysql source schema.sql
+npm run build
 
-npm run seed
+npm run start
 
-npm start
+Go to your browser -
+
+http://localhost:PORT#
+
 
 Usage
 
-WHEN I open API GET routes in Insomnia for categories, products, or tags
+When the text application is executed in the terminal, the backend initiates and serves content to the client. 
 
-THEN the data for each of these routes is displayed in a formatted JSON
+JavaScript files are combined using webpack, resulting in the creation of an HTML file, service worker, and manifest file.
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
+If information is inputted by the user into the text editor, the data is stored in the IndexedDB once the mouse loses focus (moves away).
 
-THEN I am able to successfully create, update, and delete data in my database
+This stored data is then used to repopulate the text editor upon next use/reload.
 
 GitHub Repository:
 
-https://github.com/arkenwald/ORM-E-Commerce-Back-End
+https://github.com/arkenwald/Text-Editor
 
-Video Walkthrough:
+Deployed URL (render):
 
-https://drive.google.com/file/d/1ptA0LpeVrfBAq-DGmXkPAiK6RuCcYHFr/view
+
 
 Credits
 
@@ -47,19 +53,23 @@ https://github.com/pnguyen412
 
 Website Resources:
 
-https://www.npmjs.com/package/dotenv
+https://webpack.js.org/guides/getting-started/#basic-setup
 
-https://sequelize.org/docs/v6/core-concepts/model-querying-finders/
+https://www.npmjs.com/package/concurrently
 
-https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
 
-https://sequelize.org/docs/v6/core-concepts/assocs/
+https://expressjs.com/en/starter/installing.html
+
+https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+
+https://www.npmjs.com/package/idb
 
 License
 
 MIT License
 
-Copyright (c) 2023, Peter Tong
+Copyright (c) 2024, Peter Tong
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
