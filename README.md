@@ -18,9 +18,7 @@ In the Terminal -
 
 npm i
 
-npm run build
-
-npm run start
+npm start
 
 Go to your browser -
 
