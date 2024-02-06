@@ -24,6 +24,7 @@ Go to your browser -
 
 http://localhost:PORT#
 
+OR click on the deployed link below.
 
 Usage
 
@@ -35,13 +36,15 @@ If information is inputted by the user into the text editor, the data is stored 
 
 This stored data is then used to repopulate the text editor upon next use/reload.
 
+Clicking Install on the Top Left side will install the application onto your computer for use OFFLINE.
+
 GitHub Repository:
 
 https://github.com/arkenwald/Text-Editor
 
 Deployed URL (render):
 
-
+https://text-editor-pwa-xv8k.onrender.com
 
 Credits
 
