@@ -38,6 +38,30 @@ This stored data is then used to repopulate the text editor upon next use/reload
 
 Clicking Install on the Top Left side will install the application onto your computer for use OFFLINE.
 
+Screenshots:
+
+Landing Page
+
+![landingscreenshot](https://github.com/arkenwald/Text-Editor/assets/149994852/f789ef8d-cdaa-4c9f-8ab1-642b378edd8f)
+
+IndexedDB
+
+![indexeddb](https://github.com/arkenwald/Text-Editor/assets/149994852/2e85498d-d399-4538-b535-c2e0f9c07825)
+
+Service Worker
+
+![serviceworker](https://github.com/arkenwald/Text-Editor/assets/149994852/1a99fb78-627c-4287-92fa-2b397e861394)
+
+Install Application
+
+![installpop](https://github.com/arkenwald/Text-Editor/assets/149994852/7f0be4e7-7c3a-4176-a98d-448ca0438ff9)
+
+Offline Application
+
+![offlineapp](https://github.com/arkenwald/Text-Editor/assets/149994852/e0b2cd9c-bf25-4620-9509-11ed26856bd0)
+
+
+
 GitHub Repository:
 
 https://github.com/arkenwald/Text-Editor
